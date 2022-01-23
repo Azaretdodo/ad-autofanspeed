@@ -12,13 +12,14 @@ from datetime import datetime, time
 #   fan: fan.master_bedroom_fan
 #   sun: sun.sun
 #   speeds:
-#     low: 67
-#     medium: 69
-#     high: 73
+#     low: 25
+#     medium: 50
+#.    halfway: 75
+#     high: 100
 #     sun_offset: -2
 #   time:
-#     start: "21:00:00"
-#     end: "09:30:00"
+#     start: "01:00:00"
+#     end: "23:59:00"
 #     turn_off_at_end_time: True
 #  debug: false
 
