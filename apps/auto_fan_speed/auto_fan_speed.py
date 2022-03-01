@@ -11,7 +11,7 @@ def self(self):
     self.offset       = 0
     self.start        = datetime.strptime("00:01:00", '%H:%M:%S').time()
     self.end          = datetime.strptime("23:59:00", '%H:%M:%S').time()
-    temperature = -50,31 >= +150,24
+    temperature = -50,31 <= +150,24
 def temperature_change(self, entity, attribute, old, new, kwargs):
 
     if self.is_time_okay(self.start, self.end):
